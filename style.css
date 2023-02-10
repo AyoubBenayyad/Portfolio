@@ -407,72 +407,7 @@ footer{
     flex-direction: column;
     padding-top: 5rem;
 }
-.wraper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 8rem;
-    margin: auto;
-}
-.Project_card{
-    width: 245px;
-    height: 325px;
-    background-color:rgb(254, 250, 250);
-    border-radius: 0.5rem;
-}
-.Project_card img{
-    width: 100%;
-    display: block;
-    height: 100%;
-    border-radius: 0.5rem;
-}
-.project_description{
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    font-size: medium;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-    padding: 2rem;
-    padding-top: 4rem;
-}
-.project_description h4{
-    color: var(--dark-grey);
-    padding: 10px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-.project_description h6{
-    color:var(--dark-grey);   
-    padding: 5px;
-    font-family: 'Poppins', sans-serif;
-}
-.project_description button{
-    background:transparent;
-    width: 130px;
-    height: 35px;
-    border:2px var(--dark-grey) solid;
-    font-size: 13px;
-    margin: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-.project_description button:hover,.project_description button:focus{
-    background-color:var(--dark-grey);
-    color: whitesmoke;
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
-}
-.Project_card:hover,.Project_card:focus-within{
-    border: 2px solid var(--dark-grey); 
-    cursor: pointer; 
-}
-.Project_card:hover img{
-    display: none;
-    transition: all 0.5s ease-in-out;
-}
-:is(.Project_card:hover,.Project_card:focus-within) .project_description{
-    display:flex;
-}
+
 
 
 
