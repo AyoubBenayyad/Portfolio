@@ -255,9 +255,10 @@ footer{
     z-index: 1;
     background-color: var(--bg-color);
     display: none;
+    width: 100%;
 }
 .footer{
-    
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -553,11 +554,11 @@ textarea{
 
 
 
-
-
-
 /*------------------------------ media queries -------------------------------*/
 @media only screen and (max-width: 480px) {
+main{
+    overflow: hidden;
+}
 footer{
     display: block;
 }
