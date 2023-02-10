@@ -526,8 +526,29 @@ textarea{
 .textarea_label{
     top: -2px;
 }
-
-
+.submit_btn{
+    width: 211px;
+    height: 64px;
+    background-color: var(--dark-grey);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+}
+.submit_btn img{
+    width: 25px;
+    height: auto;
+}
+.submit_btn:hover{
+    background-color: #282828;
+}
 
 
 
