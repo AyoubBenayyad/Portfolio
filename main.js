@@ -1,3 +1,4 @@
+
 let open_nav=document.getElementById("open_btn");
 let close_nav=document.getElementById("close_btn");
 let nav=document.querySelector(".second_nav");
