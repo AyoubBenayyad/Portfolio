@@ -3,7 +3,7 @@
 /*------------------------------- initialize -------------------------------*/
 html {
     scroll-behavior: smooth;
-  }
+}
 :root {
     --bg-color: #f5f5f5;
     --light-grey: #626262;
@@ -550,7 +550,9 @@ textarea{
 .submit_btn:hover{
     background-color: #282828;
 }
-
+.ayoub{
+    font-weight: 600;
+}
 
 
 

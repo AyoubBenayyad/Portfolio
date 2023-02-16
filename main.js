@@ -14,3 +14,13 @@ function closeNav(){
     nav.style.transition = "bottom 0.5s ease-in-out";
     console.log("hello");
 }
+
+let CV_btn=document.querySelector(".CV_btn");
+CV_btn.addEventListener("click",downloadCV);
+
+function downloadCV(){
+    let link=document.createElement("a");
+    link.setAttribute('href',"./img/CV_2.pdf");
+    link.setAttribute('download', 'CV_2.pdf');
+    link.click();
+}
