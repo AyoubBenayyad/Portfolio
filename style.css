@@ -558,6 +558,9 @@ textarea{
 
 /*------------------------------ media queries -------------------------------*/
 @media only screen and (max-width: 480px) {
+    .ayoub{
+        display:none;
+    }
 main{
     overflow: hidden;
 }
@@ -680,6 +683,9 @@ header{
 }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px){
+    .ayoub{
+        display:none;
+    }
     footer{
         display: none;
     }
