@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icons8-portfolio-24.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Ayoub Benayyad - Full Stack Developer</title>
 </head>
 <body>
     <header>
         <nav class="main_nav">
-            <div class="nav_logo"> <span class="ayoub"> Ayoub</span> Benayyad</div>
+            <div class="nav_logo"><span class="ayoub">Ayoub</span> Benayyad</div>
             <div class="nav_menu">
                 <ul>
                     <a href="#home"><li>Home</li></a>
-                    <a href="#about"><li>About</li></a>
+                    <a href="#experience"><li>Experience</li></a>
                     <a href="#skills"><li>Skills</li></a>
                     <a href="#projects"><li>Projects</li></a>
                     <a href="#contact"><li>Contact</li></a>   
@@ -23,276 +22,446 @@
             </div>
         </nav>
     </header>
+    
     <main>
+        <!-- Home Section -->
         <section id="home">
             <div class="home_media">
                 <a href="https://www.linkedin.com/in/ayoub-ben-ayyad-630a83251/" target="_blank"><img src="./img/icons8-linkedin-50.png" alt="linkedin"></a>
-                <a href="https://www.instagram.com/ayoub_benayyad.14/" target="_blank"><img src="./img/icons8-instagram-48.png" alt="linkedin"></a>
-                <a href="https://www.facebook.com/profile.php?id=100005723478796" target="_blank"><img src="./img/icons8-facebook-48.png" alt="linkedin"></a>
+                <a href="mailto:ayoub.benayyad@outlook.com"><img src="./img/icons8-gmail-logo.gif" alt="email"></a>
+                <a href="https://github.com/ayoubbenayyad" target="_blank"><img src="./img/icons8-github-50.png" alt="github"></a>
             </div>
             <div class="home_description">
-                <h2 class="h">Ayoub Benayyad &#128075;</h2>
-                <div class="Engineering_Student">Engineering Student</div>
-                <p class="P">I'm a Student  Software Engineer at National School of Applied Sciences Fes,and I'm very passionate and dedicated to my Work </p>
-            </div>
-            <div class="home_img" ><img src="./img/F8DCE6C3-2A5D-4EB6-9F15-AE90E14BB539-03.jpeg" alt="Me" >
-            </div>
-        </section>
-        <section id="about">
-            <div class="headers_container">
-                <h2 class="h2" >About me</h2>
-                <h5>my Introduction</h5>
-            </div>
-            <div class="about_description">
-                <figure>
-                    <img src="./img/F8DCE6C3-2A5D-4EB6-9F15-AE90E14BB539-03.jpeg" alt="ME">
-                </figure>
-                <div class="about_text">
-                    <div class="cards_container">
-                        <div class="card">
-                            <img src="./img/projet_icon.png" alt="Support">
-                            <h2>Completed </h2>
-                            <div>6 + Projetcs</div>
-                        </div>
-                        <div class="card">
-                            <img src="./img/icons8-man-winner-50.png" alt="Support">
-                            <h2>Experience</h2>
-                            <div>1 hackathon</div>
-                        </div>
-                        <div class="card">
-                            <img src="./img/icons8-service-50.png" alt="Support">
-                            <h2>Availability </h2>
-                            <div>Online 24/7</div>
-                        </div>
-                    </div>
-                    <p class="P">I'm a third year Software Engineer Student at National School Of Applied Sciences Fes,I'm a Web Developer  but I'm so Interested in Ai and machine learning,so hopefully i will get the chance to learn about it more, I'm very passionate and eager to learn new things. </p>
-                    <button  class="CV_btn">Download CV <img src="./img/icons8-docket-64.png"/></button>
+                <h2 class="h">Ayoub Benayyad</h2>
+                <div class="Engineering_Student">Full Stack Developer | Master's Student</div>
+                <p class="P">Master's student in Software Engineering at ISIMA, specializing in Java/Spring Boot and modern frontend frameworks. Currently seeking an internship starting February 2026.</p>
+                <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                    <button class="CV_btn" onclick="window.location.href='#contact'">Contact Me</button>
                 </div>
             </div>
+            <div class="home_img"><img src="./img/F8DCE6C3-2A5D-4EB6-9F15-AE90E14BB539-03.jpeg" alt="Ayoub Benayyad"></div>
         </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="headers_container">
+                <h2 class="h2">Professional Experience</h2>
+                <h5>My career journey</h5>
+            </div>
+            <div class="about_description" style="flex-direction: column; gap: 2rem; margin: 3rem;">
+                
+                <!-- Leyton Experience -->
+                <div class="card" style="width: 100%; height: auto; padding: 2rem; align-items: flex-start;">
+                    <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Full Stack AI Developer</h2>
+                    <div style="color: var(--accent-color); font-weight: 600; margin-bottom: 0.3rem;">Leyton - End of Studies Internship</div>
+                    <div style="color: var(--light-grey); margin-bottom: 1rem;">March 2025 - August 2025</div>
+                    <p style="margin-bottom: 1rem;"><strong>Humankind:</strong> ESG evaluation platform powered by LLM technology</p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Developed full-stack platform with Spring Boot 3 & Angular 19
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Implemented Redis caching reducing response times by 70%
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Load tested with JMeter simulating 1,000 concurrent users
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Integrated SonarQube Ultimate with 80% coverage threshold
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Built intelligent chatbot using RAG with Lang4j & OpenAI GPT-4
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Ants Networking Experience -->
+                <div class="card" style="width: 100%; height: auto; padding: 2rem; align-items: flex-start;">
+                    <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Full Stack Developer</h2>
+                    <div style="color: var(--accent-color); font-weight: 600; margin-bottom: 0.3rem;">Ants Networking</div>
+                    <div style="color: var(--light-grey); margin-bottom: 1rem;">June 2024 - August 2024</div>
+                    <p style="margin-bottom: 1rem;">Social dining platform connecting users to share meals and discover cuisines</p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Designed relational schema with Spring JPA & PostgreSQL
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Implemented authentication with Keycloak (OIDC, role management)
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Deployed on Hostinger & Google Cloud using Docker containers
+                        </li>
+                        <li style="margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--accent-color);">▸</span>
+                            Documented API with Swagger for frontend integration
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
         <section id="skills">
             <div class="headers_container">
-                <h2 class="h2"  >skills</h2>
-                <h5>My technical level</h5>
+                <h2 class="h2">Technical Skills</h2>
+                <h5>My technical expertise</h5>
             </div>
             <div class="skills_description">
                 
-                
-             
-             
-             
-                        <div class="skill_card">
-                                <h2> Frontend Development</h2>
-                                <div class="skills_container">
-
-                                
-                                    <div class="skill_element">
-                                        <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                        <div class="skill_name">
-                                            <h4>HTML</h4>
-                                            <div class="level">Intermediate</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill_element">
-                                        <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                        <div class="skill_name">
-                                            <h4>CSS</h4>
-                                            <div class="level">Intermediate</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill_element">
-                                        <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                        <div class="skill_name">
-                                            <h4>Bootstrap</h4>
-                                            <div class="level">Intermediate</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill_element">
-                                        <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                        <div class="skill_name">
-                                            <h4>ReactJs</h4>
-                                            <div class="level">Basic</div>
-                                        </div>
-                                    </div>
-                                    <div class="skill_element">
-                                        <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                        <div class="skill_name">
-                                            <h4>JavaScript</h4>
-                                            <div class="level">Intermediate</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>   
+                <div class="skill_card">
+                    <h2>Backend Development</h2>
+                    <div class="skills_container">
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Spring Boot</h4>
+                                <div class="level">Advanced</div>
+                            </div>
                         </div>
-                        <div class="skill_card">
-                            <h2> Programming languages</h2>
-                            <div class="skills_container">
-
-                            
-                                <div class="skill_element">
-                                    <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                    <div class="skill_name">
-                                        <h4>C/C++</h4>
-                                        <div class="level">intermediate</div>
-                                    </div>
-                                </div>
-                                <div class="skill_element">
-                                    <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                    <div class="skill_name">
-                                        <h4>Java</h4>
-                                        <div class="level">intermediate</div>
-                                    </div>
-                                </div>
-                                <div class="skill_element">
-                                    <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                    <div class="skill_name">
-                                        <h4>PHP</h4>
-                                        <div class="level">basic</div>
-                                    </div>
-                                </div>
-                                <div class="skill_element">
-                                    <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                    <div class="skill_name">
-                                        <h4>SQL</h4>
-                                        <div class="level">Basic</div>
-                                    </div>
-                                </div>
-                                <div class="skill_element">
-                                    <img src="./img/icons8-verified-account-30.png" alt="verfied icon">
-                                    <div class="skill_name">
-                                        <h4>MATLAB</h4>
-                                        <div class="level">intermediate</div>
-                                    </div>
-                                </div>
-                            </div>   
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Java 8-21</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>REST APIs</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Microservices</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>GraphQL</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
                     </div>
-                
-            
-            
-            
-            
-            
-            
+                </div>
+
+                <div class="skill_card">
+                    <h2>Frontend Development</h2>
+                    <div class="skills_container">
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Angular</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>React</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>TypeScript</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Tailwind CSS</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Redux</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_card">
+                    <h2>Database & Caching</h2>
+                    <div class="skills_container">
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>PostgreSQL</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>MySQL</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>MongoDB</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Redis</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Elasticsearch</h4>
+                                <div class="level">Basic</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_card">
+                    <h2>DevOps & Tools</h2>
+                    <div class="skills_container">
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Docker</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Git/GitHub</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Jenkins</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>SonarQube</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>JMeter</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_card">
+                    <h2>AI & Security</h2>
+                    <div class="skills_container">
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>OpenAI API</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>LangChain</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>JWT</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>OAuth 2.0</h4>
+                                <div class="level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="skill_element">
+                            <img src="./img/icons8-verified-account-30.png" alt="verified">
+                            <div class="skill_name">
+                                <h4>Keycloak</h4>
+                                <div class="level">Intermediate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
+
+        <!-- Projects Section -->
         <section id="projects">
             <div class="headers_container">
-                <h2 class="h2">Projects</h2>
-                <h5>Most recent work</h5>
+                <h2 class="h2">Featured Projects</h2>
+                <h5>Some of my recent work</h5>
             </div>
             <div class="wrapper">
+                
                 <div class="project_card">
-                    <img src="./img/Client_Blog_Header_v2.jpg" alt="league of legends " loading="lazy">
-                    <h4>league of legend Web Page</h4> 
-                    <a href="https://ayoubbenayyad.github.io/League_of_legends/" target="_blank"><button>demo &#8594;</button></a>
+                    <h4>Social Network for Students</h4>
+                    <p>Platform for sharing internship and job opportunities among ENSA Fez students with real-time messaging.</p>
+                    <div class="tech_tags">
+                        <span class="tech_tag">Spring Boot</span>
+                        <span class="tech_tag">React</span>
+                        <span class="tech_tag">WebSockets</span>
+                        <span class="tech_tag">PostgreSQL</span>
+                        <span class="tech_tag">Docker</span>
+                    </div>
                 </div>
+
                 <div class="project_card">
-                    <img src="./img/elearning-fr8dt8.jpg" alt="upside Education " loading="lazy">
-                    <h4>E-learning  platform prototype</h4> 
-                    <a href="https://www.linkedin.com/posts/ayoub-ben-ayyad-630a83251_hackathon-collaborativeabrlearning-commitment-activity-6991844759401078784-vjGg?utm_source=share&utm_medium=member_desktop" target="_blank"><button>demo &#8594;</button></a>
+                    <h4>AI CV Generator</h4>
+                    <p>Intelligent CV generation application using OpenAI API to formulate professional resume sections from user inputs.</p>
+                    <div class="tech_tags">
+                        <span class="tech_tag">Spring Boot</span>
+                        <span class="tech_tag">React</span>
+                        <span class="tech_tag">OpenAI API</span>
+                        <span class="tech_tag">LaTeX</span>
+                    </div>
                 </div>
+
                 <div class="project_card">
-                    <img src="./img/work2.jpg" alt="Portfolio " loading="lazy">
-                    <h4>InfoChain Portfolio</h4> 
-                    <a href="https://ayoubbenayyad.github.io/info_chain/" target="_blank"><button>demo &#8594;</button></a>
+                    <h4>E-Learning Platform Prototype</h4>
+                    <p>Hackathon project: collaborative learning platform designed to enhance student engagement and learning outcomes.</p>
+                    <div class="tech_tags">
+                        <span class="tech_tag">HTML</span>
+                        <span class="tech_tag">CSS</span>
+                        <span class="tech_tag">JavaScript</span>
+                        <span class="tech_tag">UI/UX</span>
+                    </div>
+                    <a href="https://www.linkedin.com/posts/ayoub-ben-ayyad-630a83251_hackathon-collaborativeabrlearning-commitment-activity-6991844759401078784-vjGg" target="_blank"><button>View Demo &#8594;</button></a>
                 </div>
+
                 <div class="project_card">
-                    <img src="./img/tic-tac-toe-xo-game-157122917.jpg" alt="X O game " loading="lazy">
-                    <h4>X_O game</h4> 
-                    <a href="https://ayoubbenayyad.github.io/X_O-game/" target="_blank"><button>demo &#8594;</button></a>
+                    <h4>Regional Project Management System</h4>
+                    <p>Application for managing complex projects at the Regional Council of Fez-Meknes with budget tracking and automation.</p>
+                    <div class="tech_tags">
+                        <span class="tech_tag">Spring MVC</span>
+                        <span class="tech_tag">Java</span>
+                        <span class="tech_tag">MySQL</span>
+                    </div>
                 </div>
-                <div class="project_card">
-                    <img src="./img/grocert bud.jpg" alt="grocery bud " loading="lazy">
-                    <h4>grocery bud</h4> 
-                    <a href="https://ayoubbenayyad.github.io/grocery_Bud/" target="_blank"><button>demo &#8594;</button></a>
-                </div>
-                <div class="project_card">
-                    <img src="./img/Screenshot 2023-02-10 150111.jpg" alt="random color generator" loading="lazy">
-                    <h4>random Color generator</h4> 
-                    <a href="https://ayoubbenayyad.github.io/Random_color_Generator/" target="_blank"><button>demo &#8594;</button></a>
-                </div>
+
             </div>
         </section>
+
+        <!-- Contact Section -->
         <section id="contact">
             <div class="headers_container">
-                <h2 class="h2"  >Contact Me</h2>
-                <h5>Get in touch</h5>
+                <h2 class="h2">Contact Me</h2>
+                <h5>Let's get in touch</h5>
             </div>
             <div class="contact_wrapper">
                 <div class="contacts">
                     <div class="card contact_card">
-                        <img src="./img/icons8-whatsapp.gif" alt="Support">
-                        <h2>Whatsapp</h2>
-                        <div>+212 621838896</div>
+                        <img src="./img/icons8-gmail-logo.gif" alt="Email">
+                        <h2>Email</h2>
+                        <div>ayoub.benayyad@outlook.com</div>
                     </div>
                     <div class="card contact_card">
-                        <img src="./img/icons8-gmail-logo.gif" alt="Support">
-                        <h2>Email </h2>
-                        <div>ayoub.benayyad@usmba.ac.ma</div>
-                    </div>
-                    <div class="card contact_card">
-                        <img src="./img/icons8-linkedin-circled.gif" alt="Support">
-                        <h2>linkedin </h2>
+                        <img src="./img/icons8-linkedin-circled.gif" alt="LinkedIn">
+                        <h2>LinkedIn</h2>
                         <div>Ayoub BEN AYYAD</div>
+                    </div>
+                    <div class="card contact_card">
+                        <img src="./img/icons8-service-50.png" alt="Location">
+                        <h2>Location</h2>
+                        <div>Clermont-Ferrand, France</div>
                     </div>
                 </div>
                 <form>
                     <div class="form-group">
                         <label for="Name">Name</label>
-                        <input type="text" name="Name" id="Name" placeholder="insert your Name">
-                   </div>
-                   <div class="form-group">
+                        <input type="text" name="Name" id="Name" placeholder="Insert your name">
+                    </div>
+                    <div class="form-group">
                         <label for="Mail">Email</label>
-                        <input type="email" name="email" id="Mail" placeholder="insert your Email">
+                        <input type="email" name="email" id="Mail" placeholder="Insert your email">
                     </div>
                     <div class="form-group">
                         <label for="message" class="textarea_label">Message</label>
-                        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="insert your message"></textarea>
-                   </div>
-                   <button class="submit_btn"> Send <img src="./img/icons8-send-24.png"/></button>
+                        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Insert your message"></textarea>
+                    </div>
+                    <button class="submit_btn" type="submit">Send <img src="./img/icons8-send-24.png" alt="send"/></button>
                 </form>
             </div>
         </section>
     </main>
+
     <footer>
-            <div class="footer">
-                <div class="nav_logo">Benayyad</div>
-                <button id="open_btn"><img src="./img/icons8-circled-menu-48.png" alt="nav_bar"></button>         
-            </div>   
-            <nav class="second_nav">
-                <div class="nav-item">
-                    <a href="#home">
-                        <img src="./img/icons8-male-user-48.png" alt="home_icon">
-                        <h3>Home</h3>
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a href="#about">
-                        <img src="./img/icons8-home-page-48.png" alt="home_icon">
-                        <h3>About</h3>
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a href="#skills">
-                        <img src="./img/icons8-resume-48.png" alt="home_icon">
-                        <h3>Skills</h3>
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a href="#projects">
-                        <img src="./img/icons8-project-management-48.png" alt="home_icon">
-                        <h3>Projects</h3>
-                    </a>
-                </div>
-                <div class="nav-item">
-                    <a href="#contact">
-                        <img src="./img/icons8-mail-contact-48.png" alt="home_icon">
-                        <h3>Contact</h3>
-                    </a>
-                </div>
-                <button id="close_btn"><img src="./img/icons8-macos-close-32.png" alt=""></button>
-            </nav>    
+        <div class="footer">
+            <div class="nav_logo">Benayyad</div>
+            <button id="open_btn"><img src="./img/icons8-circled-menu-48.png" alt="nav_bar"></button>         
+        </div>   
+        <nav class="second_nav">
+            <div class="nav-item">
+                <a href="#home">
+                    <img src="./img/icons8-male-user-48.png" alt="home">
+                    <h3>Home</h3>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#experience">
+                    <img src="./img/icons8-resume-48.png" alt="experience">
+                    <h3>Experience</h3>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#skills">
+                    <img src="./img/icons8-resume-48.png" alt="skills">
+                    <h3>Skills</h3>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#projects">
+                    <img src="./img/icons8-project-management-48.png" alt="projects">
+                    <h3>Projects</h3>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#contact">
+                    <img src="./img/icons8-mail-contact-48.png" alt="contact">
+                    <h3>Contact</h3>
+                </a>
+            </div>
+            <button id="close_btn"><img src="./img/icons8-macos-close-32.png" alt="close"></button>
+        </nav>    
     </footer>
     <script src="main.js"></script>
 </body>
-</html>
